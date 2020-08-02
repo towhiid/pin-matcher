@@ -29,13 +29,10 @@ function submit(){
         document.getElementById("matched").style.display = "block";
         
         
-    }else {
-        //notify("notifyUnmatched");
+    }else{
         document.getElementById("matched").style.display = "none";
         document.getElementById("notMatched").style.display = "block";
        
-        
-
     }
 }
 
